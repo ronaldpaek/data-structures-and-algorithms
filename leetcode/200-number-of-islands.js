@@ -59,3 +59,4 @@ const isInBound = (grid, r, c) => {
     const colInBound = c >= 0 && c < grid[0].length;
     return rowInBound && colInBound;
 };
+
